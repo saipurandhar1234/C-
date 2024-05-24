@@ -1,6 +1,6 @@
 Certainly! The task you're describing involves parsing a search query to find specific keywords, in this case, "JAVA." Below is a simple C# program that extracts the word "JAVA" from a given search query.
 
-```csharp
+##############################################################################################################################
 using System;
 using System.Text.RegularExpressions;
 
@@ -38,7 +38,7 @@ class Program
         return match.Success ? match.Value : null;
     }
 }
-```
+#######################################################################################################################################################
 
 ### Explanation:
 1. **Search Query:** The `searchQuery` variable contains the input sentence where we need to search for the keyword "JAVA."
